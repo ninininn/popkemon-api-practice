@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Get</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h2>Search for Pokémon Name or ID:</h2>
+    <div class="note">
+      Note: Pokémon names should be in lowercase, have special characters
+      removed, and be dash separated. Also, if the Pokémon has either ♀ or ♂ as
+      part of its name, the format is {name-f} or {name-m}, respectively.
+    </div>
+    <div class="search-block">
+      <input type="text" id="search-input" required />
+      <button id="search-button">Search</button>
+    </div>
+    <div class="result-block">
+      <div class="main-about">
+        <div class="nameid-block">
+          <div id="pokemon-name"></div>
+          <div id="pokemon-id"></div>
+        </div>
+        <div class="wh-block">
+          <div id="weight"></div>
+          <div id="height"></div>
+        </div>
+        <img src="" alt="" id="pokemon-image" />
+        <div id="types"></div>
+      </div>
+      <table class="properties-about">
+        <tr>
+          <th>Base</th>
+          <th>Stats</th>
+        </tr>
+        <tr>
+          <td>HP</td>
+          <td id="hp"></td>
+        </tr>
+        <tr>
+          <td>Attack</td>
+          <td id="attack"></td>
+        </tr>
+        <tr>
+          <td>Defense</td>
+          <td id="defense"></td>
+        </tr>
+        <tr>
+          <td>Special-Attack</td>
+          <td id="special-attack"></td>
+        </tr>
+        <tr>
+          <td>Special-Defense</td>
+          <td id="special-defense"></td>
+        </tr>
+        <tr>
+          <td>Speed</td>
+          <td id="speed"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
