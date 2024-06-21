@@ -1,2 +1,2 @@
 # Get Pokemon infos using FreeCodeCamp-pokemon-API
-git-pages : https://ninininn.github.io/popkemon-api-practice/
+[Try me with Github Pages](https://ninininn.github.io/popkemon-api-practice/)
